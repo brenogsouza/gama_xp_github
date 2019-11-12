@@ -1,9 +1,12 @@
 import React from 'react';
+import Home from './components/home';
+import User from './components/user';
 
 function App() {
   return (
     <div className="App">
-     <h1>oi</h1>
+      <Home />  
+      <User />
     </div>
   );
 }
